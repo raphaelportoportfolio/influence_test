@@ -1,0 +1,648 @@
+{
+		"components": [
+			{
+				"name": "Character",
+				"skeletalMesh": "/Game/Characters/BaseM/BaseM.BaseM",
+				"materials":
+				{
+					"Torso":
+					{
+						"material": "/Game/Characters/BaseM/Skins/Chimp2/Chimp2_Torso.Chimp2_Torso",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/MasksClothM/torso06e.torso06e",
+							"Feet Mask": "/Game/Characters/_TexturesAll/MasksClothM/torso01noPantsM4.torso01noPantsM4"
+						}
+					},
+					"Arms":
+					{
+						"material": "/Game/Characters/BaseM/Skins/Chimp2/Chimp2_Arms.Chimp2_Arms",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"Feet Mask": "/Game/Characters/_TexturesAll/MasksClothM/hands0127.hands0127"
+						}
+					},
+					"Fingernails":
+					{
+						"material": "/Game/Characters/BaseM/Skins/Chimp2/Chimp2_Arms.Chimp2_Arms",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"Feet Mask": "/Game/Characters/_TexturesAll/MasksClothM/hands0127.hands0127"
+						}
+					},
+					"Face":
+					{
+						"material": "/Game/Characters/BaseM/Skins/Chimp2/Chimp2_Face.Chimp2_Face",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"Feet Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"MakeUp0": "/Game/Characters/_TexturesAll/Paints/OddMakeUpBase/Sukai8FaceMASK_1001.Sukai8FaceMASK_1001",
+							"MakeUp1": "/Game/Characters/_TexturesAll/Paints/makeupThemed/FaceOff_Vol1_11.FaceOff_Vol1_11"
+						}
+					},
+					"Lips":
+					{
+						"material": "/Game/Characters/BaseM/Skins/Chimp2/Chimp2_Face.Chimp2_Face",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"Feet Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"MakeUp0": "/Game/Characters/_TexturesAll/Paints/OddMakeUpBase/Sukai8FaceMASK_1001.Sukai8FaceMASK_1001",
+							"MakeUp1": "/Game/Characters/_TexturesAll/Paints/makeupThemed/FaceOff_Vol1_11.FaceOff_Vol1_11"
+						}
+					},
+					"Ears":
+					{
+						"material": "/Game/Characters/BaseM/Skins/Chimp2/Chimp2_Face.Chimp2_Face",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"Feet Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"MakeUp0": "/Game/Characters/_TexturesAll/Paints/OddMakeUpBase/Sukai8FaceMASK_1001.Sukai8FaceMASK_1001",
+							"MakeUp1": "/Game/Characters/_TexturesAll/Paints/makeupThemed/FaceOff_Vol1_11.FaceOff_Vol1_11"
+						}
+					},
+					"Mouth":
+					{
+						"material": "/Game/Characters/_TexturesAll/Teeth/MasterMouth.MasterMouth",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"Feet Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White"
+						}
+					},
+					"Teeth":
+					{
+						"material": "/Game/Characters/_TexturesAll/Teeth/MasterMouth.MasterMouth",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"Feet Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White"
+						}
+					},
+					"Legs":
+					{
+						"material": "/Game/Characters/BaseM/Skins/Chimp2/Chimp2_Legs.Chimp2_Legs",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/MasksClothM/legs01BMShorts2.legs01BMShorts2",
+							"Feet Mask": "/Game/Characters/_TexturesAll/MasksClothM/Shoe022.Shoe022"
+						}
+					},
+					"Toenails":
+					{
+						"material": "/Game/Characters/BaseM/Skins/Chimp2/Chimp2_Legs.Chimp2_Legs",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/MasksClothM/legs01BMShorts2.legs01BMShorts2",
+							"Feet Mask": "/Game/Characters/_TexturesAll/MasksClothM/Shoe022.Shoe022"
+						}
+					},
+					"EyeSocket":
+					{
+						"material": "/Game/Characters/BaseM/Skins/Chimp2/Chimp2_Face.Chimp2_Face",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"Feet Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"MakeUp0": "/Game/Characters/_TexturesAll/Paints/OddMakeUpBase/Sukai8FaceMASK_1001.Sukai8FaceMASK_1001",
+							"MakeUp1": "/Game/Characters/_TexturesAll/Paints/makeupThemed/FaceOff_Vol1_11.FaceOff_Vol1_11"
+						}
+					},
+					"Eyelashes":
+					{
+						"material": "/Game/Characters/_TexturesAll/Eyes/Eyelashes/Eyelashes_Instmale.Eyelashes_Instmale",
+						"textures":
+						{
+						}
+					},
+					"Pupils":
+					{
+						"material": "/Game/Characters/_TexturesAll/Eyes/EyeMaterials/ZumaGreenToon/Eyemaster_ZumaGreen.Eyemaster_ZumaGreen",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"Feet Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White"
+						}
+					},
+					"Irises":
+					{
+						"material": "/Game/Characters/_TexturesAll/Eyes/EyeMaterials/ZumaGreenToon/Eyemaster_ZumaGreen.Eyemaster_ZumaGreen",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"Feet Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White"
+						}
+					},
+					"Sclera":
+					{
+						"material": "/Game/Characters/_TexturesAll/Eyes/EyeMaterials/ZumaGreenToon/Eyemaster_ZumaGreen.Eyemaster_ZumaGreen",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"Feet Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White"
+						}
+					},
+					"Cornea":
+					{
+						"material": "/Game/Characters/_TexturesAll/Eyes/sclera.sclera",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"Feet Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White"
+						}
+					},
+					"EyeMoisture":
+					{
+						"material": "/Game/Characters/_TexturesAll/Eyes/sclera.sclera",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"Feet Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White"
+						}
+					},
+					"Eyelashes_EyeMoisture":
+					{
+						"material": "/Game/Characters/_TexturesAll/Eyes/sclera.sclera",
+						"textures":
+						{
+							"Full Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White",
+							"Feet Mask": "/Game/Characters/_TexturesAll/FlatColors/White.White"
+						}
+					}
+				},
+				"materialsParams":
+				{
+					"used": false,
+					"tint":
+					{
+						"x": 1,
+						"y": 1,
+						"z": 1
+					},
+					"hue": 0,
+					"saturation": 0,
+					"brightness": 0,
+					"contrast": 0,
+					"fillColor":
+					{
+						"x": 1,
+						"y": 1,
+						"z": 1
+					},
+					"fillColorBlend": 0
+				},
+				"morphTargets":
+				{
+					"Michael8Shape": 0.40513014793395996,
+					"Michael8": 0.40513014793395996,
+					"ChimpHeadShape": 0.59486985206604004,
+					"ChimpHead": 0.59486985206604004,
+					"PretoShow": 0,
+					"Waist_Size": -0.078277885913848877,
+					"Portly": 0.0019569471478462219,
+					"xAllLegsUpperAlt": 0.26625394821166992,
+					"xAllLegsLowerAlt": 0.033136129379272461
+				},
+				"customTextures":
+				{
+				},
+				"materialsConfig":
+				{
+					"Face":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Face_mask.png"
+						}
+					},
+					"Lips":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Face_mask.png"
+						}
+					},
+					"Ears":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Face_mask.png"
+						}
+					},
+					"EyeSocket":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Face_mask.png"
+						}
+					},
+					"Torso":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Torso_mask.png"
+						}
+					},
+					"Arms":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Arms_mask.png"
+						}
+					},
+					"Fingernails":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Arms_mask.png"
+						}
+					},
+					"Legs":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Legs_mask.png"
+						}
+					},
+					"Toenails":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Legs_mask.png"
+						}
+					},
+					"Pupils":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Eyes_mask.png"
+						}
+					},
+					"Irises":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Eyes_mask.png"
+						}
+					},
+					"Sclera":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Eyes_mask.png"
+						}
+					},
+					"EyeMoisture":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Eyes_mask.png"
+						}
+					},
+					"Cornea":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Eyes_mask.png"
+						}
+					},
+					"Eyelashes_EyeMoisture":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Eyes_mask.png"
+						}
+					},
+					"Eyelashes":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Eyes_mask.png"
+						}
+					},
+					"Mouth":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Mouth_mask.png"
+						}
+					},
+					"Teeth":
+					{
+						"floatParams":
+						{
+						},
+						"vectorParams":
+						{
+						},
+						"textureParams":
+						{
+							"Full Mask 2": "NAN07917_SkinMasks/Mouth_mask.png"
+						}
+					}
+				}
+			},
+			{
+				"name": "Outfit",
+				"skeletalMesh": "/Game/Characters/BaseM/ClothLow/RevengePants/BM_OL054F_RevengePants.BM_OL054F_RevengePants",
+				"materials":
+				{
+				},
+				"materialsParams":
+				{
+					"used": false,
+					"tint":
+					{
+						"x": 1,
+						"y": 1,
+						"z": 1
+					},
+					"hue": 0,
+					"saturation": 0,
+					"brightness": 0,
+					"contrast": 0,
+					"fillColor":
+					{
+						"x": 1,
+						"y": 1,
+						"z": 1
+					},
+					"fillColorBlend": 0
+				},
+				"morphTargets":
+				{
+				},
+				"customTextures":
+				{
+				},
+				"materialsConfig":
+				{
+				}
+			},
+			{
+				"name": "OutfitUpperBody",
+				"skeletalMesh": "/Game/Characters/Greg/Clothing/gregSport.gregSport",
+				"materials":
+				{
+				},
+				"materialsParams":
+				{
+					"used": false,
+					"tint":
+					{
+						"x": 1,
+						"y": 1,
+						"z": 1
+					},
+					"hue": 0,
+					"saturation": 0,
+					"brightness": 0,
+					"contrast": 0,
+					"fillColor":
+					{
+						"x": 1,
+						"y": 1,
+						"z": 1
+					},
+					"fillColorBlend": 0
+				},
+				"morphTargets":
+				{
+					"ADJ_Waist": 1.0066225528717041
+				},
+				"customTextures":
+				{
+				},
+				"materialsConfig":
+				{
+				}
+			},
+			{
+				"name": "Shoes",
+				"skeletalMesh": "/Game/Characters/BaseM/Shoes/CybercityBoots/BM_SH143_CyberCityBoots.BM_SH143_CyberCityBoots",
+				"materials":
+				{
+				},
+				"materialsParams":
+				{
+					"used": false,
+					"tint":
+					{
+						"x": 1,
+						"y": 1,
+						"z": 1
+					},
+					"hue": 0,
+					"saturation": 0,
+					"brightness": 0,
+					"contrast": 0,
+					"fillColor":
+					{
+						"x": 1,
+						"y": 1,
+						"z": 1
+					},
+					"fillColorBlend": 0
+				},
+				"morphTargets":
+				{
+				},
+				"customTextures":
+				{
+				},
+				"materialsConfig":
+				{
+				}
+			},
+			{
+				"name": "Glasses",
+				"skeletalMesh": "/Game/Characters/BaseM/Glasses/ExoArmorGLasses/BM_FM0039_ExoArmorGlasses.BM_FM0039_ExoArmorGlasses",
+				"materials":
+				{
+				},
+				"materialsParams":
+				{
+					"used": false,
+					"tint":
+					{
+						"x": 1,
+						"y": 1,
+						"z": 1
+					},
+					"hue": 0,
+					"saturation": 0,
+					"brightness": 0,
+					"contrast": 0,
+					"fillColor":
+					{
+						"x": 1,
+						"y": 1,
+						"z": 1
+					},
+					"fillColorBlend": 0
+				},
+				"morphTargets":
+				{
+				},
+				"customTextures":
+				{
+				},
+				"materialsConfig":
+				{
+				}
+			},
+			{
+				"name": "Hats",
+				"skeletalMesh": "/Game/Characters/BaseM/Hats/Basic_cap/BM_C006_BasicCap.BM_C006_BasicCap",
+				"materials":
+				{
+				},
+				"materialsParams":
+				{
+					"used": false,
+					"tint":
+					{
+						"x": 1,
+						"y": 1,
+						"z": 1
+					},
+					"hue": 0,
+					"saturation": 0,
+					"brightness": 0,
+					"contrast": 0,
+					"fillColor":
+					{
+						"x": 1,
+						"y": 1,
+						"z": 1
+					},
+					"fillColorBlend": 0
+				},
+				"morphTargets":
+				{
+				},
+				"customTextures":
+				{
+				},
+				"materialsConfig":
+				{
+				}
+			}
+		],
+		"morpheusWeights": [ 0.59533071517944336, 0.73999983072280884, 0.5, 0.5, 0.60000002384185791, 0.64999997615814209, 0.69999998807907104 ],
+		"morpheusParams":
+		{
+			"None": 0
+		},
+		"heightOffset": 1,
+		"anklesRotation": 0,
+		"toesRotation": 0,
+		"boneArmSpace": 0,
+		"boneArmHeight": 0
+}
