@@ -1,4 +1,4 @@
-		"Player": [
+{		"Player": {
 			{
 				"Name": "Raphael",
 				"ID": "1215712182",
@@ -21,4 +21,4 @@
 				"MovmentNeutral": "5",
 				"MovmentRunway": "5",
 				"FavoriteStage": "Ape_Resort",
-			}]
+			}}}
