@@ -1,5 +1,4 @@
 {		"Player": {
-			{
 				"Name": "Raphael",
 				"ID": "1215712182",
 				"MonkeyName": "NAN0987.rplk",
@@ -30,5 +29,5 @@
 				"PointsHealth": "100",
 				"PointsCombos": "300",
 				"PointsTimes": "200"
-
-			}}}
+				}
+}
