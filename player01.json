@@ -1,5 +1,4 @@
-{		"Player": {
-				"Name": "Raphael",
+{				"Name": "Raphael",
 				"ID": "1215712182",
 				"MonkeyName": "NAN0987.rplk",
 				"MonkeyLevel": "Ape_Resort",
@@ -29,5 +28,4 @@
 				"PointsHealth": "100",
 				"PointsCombos": "300",
 				"PointsTimes": "200"
-				}
 }
