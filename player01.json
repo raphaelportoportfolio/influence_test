@@ -1,4 +1,5 @@
-{
+{		"Player": {
+			{
 				"Name": "Raphael",
 				"ID": "1215712182",
 				"MonkeyName": "NAN0987.rplk",
@@ -6,9 +7,12 @@
 				"AttackMoney": "500",
 				"DefenseMoney": "210",
 				"SpeedMoney": "200",
+				"SpecialItens_1": "Fire",
+				"SpecialItens_2": "none",
+				"SpecialItens_3": "none",
 				"SpecialItens": "Fire/none/none",
 				"Money": "89",
-				"Games": "03",
+				"Gemes": "03",
 				"Crystal": "05",
 				"AttackGrapper": "10",
 				"AttackCombos": "40",
@@ -19,5 +23,12 @@
 				"MovmentAgressive": "50",
 				"MovmentNeutral": "5",
 				"MovmentRunway": "5",
-				"FavoriteStage": "Ape_Resort"
-}
+				"FavoriteStage": "Ape_Resort",
+				"FavoriteMusic": "TheRock",
+				"Voice": "Male",
+				"PointsAttack": "50",
+				"PointsHealth": "100",
+				"PointsCombos": "300",
+				"PointsTimes": "200"
+
+			}}}
