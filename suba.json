@@ -1,5 +1,5 @@
-{"Player": {
-    "Name": "Raphael",
+{"widget": {
+    "debug": "on",
     "window": {
         "title": "Sample Konfabulator Widget",
         "name": "main_window",
