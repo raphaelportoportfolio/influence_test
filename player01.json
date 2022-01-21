@@ -1,24 +1,26 @@
-{		"Player": {
-			{
-				"Name": "Raphael",
-				"ID": "1215712182",
-				"MonkeyName": "NAN0987.rplk",
-				"MonkeyLevel": "Ape_Resort",
-				"AttackMoney": "500",
-				"DefenseMoney": "210",
-				"SpeedMoney": "200",
-				"SpecialItens": "Fire/none/none",
-				"Money": "89",
-				"Games": "03",
-				"Crystal": "05",
-				"AttackGrapper": "10",
-				"AttackCombos": "40",
-				"AttackZonner": "05",
-				"DefenseBlock": "50",
-				"DefenseDoge": "30",
-				"DefenseRevide": "20",
-				"MovmentAgressive": "50",
-				"MovmentNeutral": "5",
-				"MovmentRunway": "5",
-				"FavoriteStage": "Ape_Resort",
-			}}}
+{"Player": {
+    "debug": "on",
+    "window": {
+        "title": "Sample Konfabulator Widget",
+        "name": "main_window",
+        "width": 500,
+        "height": 500
+    },
+    "image": { 
+        "src": "Images/Sun.png",
+        "name": "sun1",
+        "hOffset": 250,
+        "vOffset": 250,
+        "alignment": "center"
+    },
+    "text": {
+        "data": "Click Here",
+        "size": 36,
+        "style": "bold",
+        "name": "text1",
+        "hOffset": 250,
+        "vOffset": 100,
+        "alignment": "center",
+        "onMouseUp": "sun1.opacity = (sun1.opacity / 100) * 90;"
+    }
+}} 
